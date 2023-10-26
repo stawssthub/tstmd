@@ -206,7 +206,7 @@ flowchart TD;
     remote_repository-->working_directory[git clone https://name-of-the-repository-link];
     working_directory-->Change_directory[cd repo_name ];
     Change_directory-->checkout_branch{git checkout branch_name  or  git checkout -b branch_name};
-    checkout_branch-->git_status{git status};
+    checkout_branch-->git_status[git status];
     git_status-->git_add[git add .  or  git add -A];
     git_add-->git_commit[git commit -m 'commit message'];
     git_commit-->git_push[git push -u remote_name branch_name];

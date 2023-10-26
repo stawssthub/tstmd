@@ -199,6 +199,8 @@ Another safety  measure here    is  that    everything  happens in  our local co
 ---
 #   Flow Chart:
 
+<br>
+
 ```mermaid
 flowchart TD;
     remote_repository-->working_directory[git clone https://name-of-the-repository-link];

@@ -170,7 +170,7 @@ Another safety  measure here    is  that    everything  happens in  our local co
     `git revert <commit_Id>`<br />
 
 
-*Flow Chart:*
+#   Flow Chart:
 
 ```mermaid
 flowchart TD;

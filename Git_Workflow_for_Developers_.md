@@ -170,26 +170,6 @@ Another safety  measure here    is  that    everything  happens in  our local co
     `git revert <commit_Id>`<br />
 
 
-#   Flow Chart:
-
-```mermaid
-flowchart TD;
-    remote_repository-->working_directory[git clone https://name-of-the-repository-link];
-    working_directory[git clone https://name-of-the-repository-link]-->Change_directory[cd repo_name ];
-    Change_directory[cd repo_name ]-->checkout_branch[git checkout branch_name  or  git checkout -b branch_name];
-    checkout_branch[git checkout branch_name  or  git checkout -b branch_name]-->git_status[git status];
-    git_status[git status]-->git_add[git add .  or  git add -A];
-    git_add[git add .  or  git add -A]-->git_commit[git commit -m 'commit message'];
-    git_commit[git commit -m 'commit message']-->git_push[git push -u remote_name branch_name];
-    git_push[git push -u remote_name branch_name]-->remote_repository;
-    checkout_branch[git checkout branch_name  or  git checkout -b branch_name]-->git_pull[git pull remote];
-    git_pull[git pull remote]-->git_status[git status];
-    checkout_branch[git checkout branch_name  or  git checkout -b branch_name]-->git_rever_log[git log –online];
-    git_revert_log[git log –oneline]-->git_revert_commitid[git revert commit_Id];
-    git_revert_commitid[git revert commit_Id]-->git_commit[git commit -m 'commit message'];
-```
-<br />
-
 ----
 <br />
 
@@ -216,6 +196,24 @@ flowchart TD;
 9.  Reverting Changes:    to  undo    commits,    navigate    to  source  control select  commit  and click   on  Undo    last    commit. then    we  need    to  push    the latest  commit  to  the remote  repository  by  creating PR.<br />
 
 
+---
+#   Flow Chart:
 
+```mermaid
+flowchart TD;
+    remote_repository-->working_directory[git clone https://name-of-the-repository-link];
+    working_directory[git clone https://name-of-the-repository-link]-->Change_directory[cd repo_name ];
+    Change_directory[cd repo_name ]-->checkout_branch[git checkout branch_name  or  git checkout -b branch_name];
+    checkout_branch[git checkout branch_name  or  git checkout -b branch_name]-->git_status[git status];
+    git_status[git status]-->git_add[git add .  or  git add -A];
+    git_add[git add .  or  git add -A]-->git_commit[git commit -m 'commit message'];
+    git_commit[git commit -m 'commit message']-->git_push[git push -u remote_name branch_name];
+    git_push[git push -u remote_name branch_name]-->remote_repository;
+    checkout_branch[git checkout branch_name  or  git checkout -b branch_name]-->git_pull[git pull remote];
+    git_pull[git pull remote]-->git_status[git status];
+    checkout_branch[git checkout branch_name  or  git checkout -b branch_name]-->git_rever_log[git log –online];
+    git_revert_log[git log –oneline]-->git_revert_commitid[git revert commit_Id];
+    git_revert_commitid[git revert commit_Id]-->git_commit[git commit -m 'commit message'];
+```
 
 

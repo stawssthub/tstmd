@@ -187,7 +187,7 @@ flowchart TD;
     git_push-->remote_repository;
 ```
 
----
+
 ---
 <br>
 
@@ -212,6 +212,5 @@ flowchart TD;
 9.  Reverting Changes:    to  undo    commits,    navigate    to  source  control select  commit  and click   on  Undo    last    commit. then    we  need    to  push    the latest  commit  to  the remote  repository  by  creating PR.<br>
 
 
----
 
 

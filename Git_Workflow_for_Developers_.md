@@ -1,6 +1,6 @@
 # Git Workflow for Developers:
 
-we will Learn the Git Commands below that are needed for daily programming as part of development.
+We will learn the Git commands below that are needed for daily programming as part of development.
 
 **1. Git    clone:**<br>
 Git clone   command is  used    to  pulls  down    a   full    copy    of  all the repository  data    that    GitHub  has at  that    point   in  time,   including   all versions    of  every   file    and folder  for the project,    In  other   words,  Git clone   basically   makes   an  identical   copy    of  the latest  version of  a   project in  a   repository  and saves   it  to  our local   computer(VDI).<br />

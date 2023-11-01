@@ -22,5 +22,5 @@ we  have    to  create   "feature" branch  and as  part    of    feture  branch 
 
     `git clone https://name-of-the-repository-link`<br>
 
-    ![Poll  Mockup](./Clone_Repo.PNG)
+    ![Poll  Mockup](https://github.com/stawssthub/tstmd/blob/main/Clone_Repo.PNG)
 

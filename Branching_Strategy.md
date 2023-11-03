@@ -17,23 +17,24 @@ we  have    to  create   "feature branch"  and as  part    of    feture  branch 
 2.  Steps to  Clone   the Project Code    and Push    to  Remote  Repository  in GitHub:
     1.   Clone respective   repository  from    GitHub  to  local   computer(VDI).  from    repository  page    on  GitHub  click   the green   button  labeled clone   or  download    and clone  with    HTTPS    and copy    the repository **url**.<br>
     
+            ![Clone_Repo](https://github.com/stawssthub/tstmd/assets/139438824/727fa832-5248-43c6-afcc-a42d25e05481)
 
-    2.  Open  up  a   git bash    terminal  in  local   computer(VDI)   and navigate    to  the directory   where   we  want    to  clone   the repository  and run the git clone   command with the    address of  respository with  the following   command.<br>
+    3.  Open  up  a   git bash    terminal  in  local   computer(VDI)   and navigate    to  the directory   where   we  want    to  clone   the repository  and run the git clone   command with the    address of  respository with  the following   command.<br>
 
         `git clone https://name-of-the-repository-link`<br>
     
-    3.  Next  we would have to   change  the directory   to repository folder    where  it  is  cloned.<b>
+    4.  Next  we would have to   change  the directory   to repository folder    where  it  is  cloned.<b>
 
         `cd <repo_name>`<br>
 
-    4.   By  default we would be  on  "main branch"  when   we  clone   the repositrory, so  we  need to be create  a   new branch called  "feature    branch"    and checkout    to  that    branch. then we  have    to  add the code/develop    the code    into    the project folders/files    based   on  user    stories.   we  can use following   command.<br>
+    5.   By  default we would be  on  "main branch"  when   we  clone   the repositrory, so  we  need to be create  a   new branch called  "feature    branch"    and checkout    to  that    branch. then we  have    to  add the code/develop    the code    into    the project folders/files    based   on  user    stories.   we  can use following   command.<br>
     
 
           `git checkout -b feature`<br>
     
             **Note:**   The moment we created   the new branch  it  will    be  having  the exact   copy    of  main    branch.
 
-    5.  Next  open    up  code    editor  like    VS  code    and writ  the code/database    in  the files    and save    the changes,    once    we  are ok  with    the changes which   are saved,  then    go back to  terminal    and run the following   commands.<br>
+    6.  Next  open    up  code    editor  like    VS  code    and writ  the code/database    in  the files    and save    the changes,    once    we  are ok  with    the changes which   are saved,  then    go back to  terminal    and run the following   commands.<br>
 
         `git status`    // To  keep track   of  changes.<br>
         `git add file-name `   // To add the changes    in  single  file.<br>
@@ -41,7 +42,7 @@ we  have    to  create   "feature branch"  and as  part    of    feture  branch 
         `git add .` // to add   the changes in  multiple    files.<br>
         `git commit -m "commit message”`  //To commit all changes.<br />
 
-    6.  So    far   we  have    only    modified    our local   copy    of  the respository.    To  add the changes to  git repo    files   on  local   computer    to  the version of  remote  repository  on  GitHub  we  can push    chnages with  the following   command.<br>
+    7.  So    far   we  have    only    modified    our local   copy    of  the respository.    To  add the changes to  git repo    files   on  local   computer    to  the version of  remote  repository  on  GitHub  we  can push    chnages with  the following   command.<br>
 
         `git push -u origin feature`<br>
 
